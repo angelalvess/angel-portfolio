@@ -58,7 +58,7 @@ const Data = () => {
         Developer with a passion for learning and creating visually stunning and
         user-friendly websites.
       </p>
-      <a href="#contact" className="button button-flex">
+      <a href="#contact" className="button button-flex button-hello">
         Say Hello
         <svg
           className="button-icon"

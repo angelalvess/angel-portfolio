@@ -166,4 +166,10 @@
         width: 150px;
         height: 187.5px;
     }
+
+    .home-subtitle {
+        padding-left: 0.1rem;
+        margin-bottom: 0.5rem;
+
+    }
 }
