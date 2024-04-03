@@ -25,6 +25,7 @@
     padding: 1rem;
     border-radius: 0.75rem;
     text-align: center;
+
 }
 
 .contact-card-icon {
@@ -55,6 +56,7 @@
     align-items: center;
     justify-content: center;
     column-gap: 0.25rem;
+
 }
 
 .contact-button-icon {
@@ -71,7 +73,6 @@
 }
 
 .contact-form-div {
-
     position: relative;
     margin-bottom: var(--mb-2);
     height: 4rem;
@@ -91,6 +92,7 @@
     border-radius: 0.75rem;
     padding: 1.5rem;
     z-index: 1;
+
 }
 
 .contact-form-tag {
@@ -101,4 +103,54 @@
     padding: 0.25rem;
     z-index: 10;
     background-color: var(--body-color);
+
+}
+
+.contact-form-area {
+    height: 11rem;
+}
+
+.contact-form-area textarea {
+    resize: none;
+}
+
+/* MEDIA QUERYS*/
+
+@media screen and (max-width: 992px) {
+    .contact-container {
+        column-gap: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+    }
+
+    .contact-info {
+        justify-content: center;
+    }
+
+    .contact-form {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .contact-info {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+
+    .contact-container {
+        margin-left: 1.4rem
+    }
 }

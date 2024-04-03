@@ -26,36 +26,40 @@ const Contact = () => {
             </div>
           </div>
           {/* **************************************************** */}
-          <div className="contact-card">
-            <i className="bx bxl-linkedin contact-card-icon"></i>
-            <h3 className="contact-card-title">Linkedin</h3>
-            <span className="contact-card-data">
-              https://www.linkedin.com/in/angelalvess
-            </span>
-            <a
-              href=" https://www.linkedin.com/in/angelalvess/"
-              target="_blank"
-              className="contact-button"
-            >
-              Write me
-              <i className="bx bx-right-arrow-alt contact-button-icon"></i>
-            </a>
+          <div className="contact-info">
+            <div className="contact-card">
+              <i className="bx bxl-linkedin contact-card-icon"></i>
+              <h3 className="contact-card-title">Linkedin</h3>
+              <span className="contact-card-data">
+                https://www.linkedin.com/in/angelalvess
+              </span>
+              <a
+                href=" https://www.linkedin.com/in/angelalvess/"
+                target="_blank"
+                className="contact-button"
+              >
+                Write me
+                <i className="bx bx-right-arrow-alt contact-button-icon"></i>
+              </a>
+            </div>
           </div>
           {/* **************************************************** */}
-          <div className="contact-card">
-            <i className="bx bxl-github contact-card-icon"></i>
-            <h3 className="contact-card-title">Github</h3>
-            <span className="contact-card-data">
-              https://github.com/angelalvess
-            </span>
-            <a
-              href="https://github.com/angelalvess"
-              target="_blank"
-              className="contact-button"
-            >
-              Write me
-              <i className="bx bx-right-arrow-alt contact-button-icon"></i>
-            </a>
+          <div className="contact-info">
+            <div className="contact-card">
+              <i className="bx bxl-github contact-card-icon"></i>
+              <h3 className="contact-card-title">Github</h3>
+              <span className="contact-card-data">
+                https://github.com/angelalvess
+              </span>
+              <a
+                href="https://github.com/angelalvess"
+                target="_blank"
+                className="contact-button"
+              >
+                Write me
+                <i className="bx bx-right-arrow-alt contact-button-icon"></i>
+              </a>
+            </div>
           </div>
           {/* **************************************************** */}
         </div>
@@ -86,7 +90,7 @@ const Contact = () => {
               />
             </div>
             {/* **************************************************** */}
-            <div className="contact-form-div">
+            <div className="contact-form-div contact-form-area">
               <label htmlFor="" className="contact-form-tag">
                 Project
               </label>
