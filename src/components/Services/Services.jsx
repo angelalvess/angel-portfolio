@@ -89,14 +89,23 @@ const Services = () => {
             </h3>
           </div>
 
-          <span className="services-button">
+          <span className="services-button" onClick={() => toggleTab(2)}>
             View More
             <i className="uil uil-arrow-right services-button-icon"></i>
           </span>
 
-          <div className="services-modal">
+          <div
+            className={
+              toggleState === 2
+                ? 'services-modal active-modal'
+                : 'services-modal'
+            }
+          >
             <div className="services-modal-content">
-              <i className="uil uil-times services-modal-close"></i>
+              <i
+                className="uil uil-times services-modal-close"
+                onClick={() => toggleTab(0)}
+              ></i>
 
               <h3 className="services-modal-title">Backend Development</h3>
               <p className="services-modal-description">
@@ -147,14 +156,23 @@ const Services = () => {
             </h3>
           </div>
 
-          <span className="services-button">
+          <span className="services-button" onClick={() => toggleTab(3)}>
             View More
             <i className="uil uil-arrow-right services-button-icon"></i>
           </span>
 
-          <div className="services-modal">
+          <div
+            className={
+              toggleState === 3
+                ? 'services-modal active-modal'
+                : 'services-modal'
+            }
+          >
             <div className="services-modal-content">
-              <i className="uil uil-times services-modal-close"></i>
+              <i
+                className="uil uil-times services-modal-close"
+                onClick={() => toggleTab(0)}
+              ></i>
 
               <h3 className="services-modal-title">Fullstack Development</h3>
               <p className="services-modal-description">

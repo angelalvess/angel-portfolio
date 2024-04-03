@@ -211,7 +211,15 @@ img {
     }
 }
 
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+    .container {
+
+        width: 85%;
+
+        padding: 4.5rem 1.5rem 2.5rem 2.5rem;
+
+    }
+}
 
 /* For small devices */
 @media screen and (max-width: 350px) {
