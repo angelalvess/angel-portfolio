@@ -15,9 +15,10 @@ const About = () => {
           <Info />
 
           <p className="about-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-            veritatis in accusamus maxime omnis velit sed ad beatae aut
-            reprehenderit.
+            Hello, my name is Angel, Im 23 years old and I live in São Paulo. I
+            am currently looking for an internship opportunity to improve my
+            knowledge and contribute meaningfully in a professional
+            environment..
           </p>
 
           <a download="" href={CV} className="button button-flex">
