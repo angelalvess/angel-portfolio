@@ -133,13 +133,11 @@ const Services = () => {
                 {/* ******** */}
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Lorem.</p>
                 </li>
 
                 {/* ******** */}
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Lorem.</p>
                 </li>
               </ul>
             </div>
