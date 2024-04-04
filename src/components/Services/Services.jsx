@@ -130,12 +130,12 @@ const Services = () => {
                 </li>
                 {/* ******** */}
                 <li className="services-modal-service">
-                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  {/* <i className="uil uil-check-circle services-modal-icon"></i> */}
                 </li>
 
                 {/* ******** */}
                 <li className="services-modal-service">
-                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  {/* <i className="uil uil-check-circle services-modal-icon"></i> */}
                 </li>
               </ul>
             </div>
@@ -195,12 +195,12 @@ const Services = () => {
                 </li>
                 {/* ******** */}
                 <li className="services-modal-service">
-                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  {/* <i className="uil uil-check-circle services-modal-icon"></i> */}
                 </li>
 
                 {/* ******** */}
                 <li className="services-modal-service">
-                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  {/* <i className="uil uil-check-circle services-modal-icon"></i> */}
                 </li>
               </ul>
             </div>
