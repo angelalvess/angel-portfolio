@@ -172,8 +172,9 @@ const Services = () => {
 
               <h3 className="services-modal-title">Fullstack Development</h3>
               <p className="services-modal-description">
-                Looking for the first job in the IT industry.Providing quality
-                work to clients and learning new technologies.
+                Looking for the first job in the IT industry.
+                <br />
+                Providing quality work to clients and learning new technologies.
               </p>
 
               <ul className="services-modal-services grid">
