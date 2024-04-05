@@ -17,8 +17,7 @@ const About = () => {
           <p className="about-description">
             Hello, my name is Angel, Im 23 years old and I live in São Paulo. I
             am currently looking for an internship opportunity to improve my
-            knowledge and contribute meaningfully in a professional
-            environment..
+            knowledge and contribute meaningfully in a professional environment.
           </p>
 
           <a download="" href={CV} className="button button-flex">
